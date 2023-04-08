@@ -45,7 +45,6 @@ nav {
     font-size: 1.6em;
     margin:0px 20px;
     font-family: var(--font-primary);
- 
     text-transform:uppercase;
     color: white;
 }
@@ -64,6 +63,8 @@ nav {
     background-color:white;
     padding: 5px 60px;
     border-radius: 24px;
+    cursor: pointer;
+    
 }
 .banner-funko h1{
     font-size: 3.8em;
@@ -73,3 +74,60 @@ nav {
     font-size: 1.6rem;
     font-weight: lighter;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 0px;
+}
+
+main .cont-funko{
+    display: flex;
+    gap:40px;
+    white-space: nowrap;
+
+}
+.cont-funko h2, .funko-body h4{
+    font-family: var(--font-primary);
+}
+
+.img-card-funko img{
+    width:350px;
+
+}
+.funko-body{
+    padding: 125px 0px;   
+}
+.cont-funko h2{
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.cont-funko h4{
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 10px 0px 15px;
+    border-bottom: 1px solid #FF3333;
+}
+.cont-funko button{
+    margin:20px 0px 0px;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.ult-lanzamientos h2{
+    font-size: 4.2em;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #111111;
+    padding:0px 300px 0px 0px;
+}
+
