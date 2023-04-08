@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-primary:'Raleway', sans-serif;
+    --font-secondary:'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul li, ol li {
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+}
+.logo img{
+    width: 272px;
+}
+.banner-funko {
+    background-image:linear-gradient(rgba(7, 7, 7, 0.491),rgba(5, 5, 5, 0.861)), url(../img/funkos-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    display: inline-block;
+    width: 100%;
+    margin: 70px 0px;
+    padding: 120px 60px 0px;
+    background-position:13% 90%;
+}
+nav {
+    background-color:#30343F;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px 70px;
+}
+
+.nav-link{
+    display: inline-block;
+    font-size: 1.6em;
+    margin:0px 20px;
+    font-family: var(--font-primary);
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.banner-funko h1,.banner-funko h4{
+    font-family: var(--font-primary);
+}
+.banner-funko button{
+    font-family: var(--font-secondary);
+}
