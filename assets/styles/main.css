@@ -130,4 +130,23 @@ main .cont-funko{
     color: #111111;
     padding:0px 300px 0px 0px;
 }
-
+.cont-lanza-img img{
+    width: 250px;
+    display: block;
+}
+.cont-card-funko{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.cont-label{
+    display: inline;    
+    float: right;
+}
+.label{
+    margin:50px 10px 0px;
+    background-color:#FF3333;
+    padding: 5px 15px;
+    color: white;
+    font-size: 1.1em;
+}
