@@ -26,8 +26,8 @@ html {
     height: 45vh;
     display: inline-block;
     width: 100%;
-    margin: 70px 0px;
-    padding: 120px 60px 0px;
+    margin: 70px 0px 0px;
+    padding: 120px 80px 0px;
     background-position:13% 90%;
 }
 nav {
@@ -45,12 +45,31 @@ nav {
     font-size: 1.6em;
     margin:0px 20px;
     font-family: var(--font-primary);
-    font-weight:bold;
+ 
     text-transform:uppercase;
+    color: white;
 }
 .banner-funko h1,.banner-funko h4{
     font-family: var(--font-primary);
+    color: white;
 }
 .banner-funko button{
     font-family: var(--font-secondary);
+    display: inline-block;
+    margin: 30px 0px 0px;
+    color:rgb(0,0,0);
+    font-size: 1.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:white;
+    padding: 5px 60px;
+    border-radius: 24px;
+}
+.banner-funko h1{
+    font-size: 3.8em;
+    padding: 10px 0px;
+}
+.banner-funko h4{
+    font-size: 1.6rem;
+    font-weight: lighter;
 }
