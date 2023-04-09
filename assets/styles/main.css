@@ -30,6 +30,9 @@ html {
     padding: 80px 80px 0px;
     background-position:13% 90%;
 }
+.nav-bar{
+    display: inline-block;
+}
 nav {
     background-color:#30343F;
     position: fixed;
@@ -41,7 +44,6 @@ nav {
 }
 
 .nav-link{
-    display: inline-block;
     font-size: 1.6em;
     margin:0px 20px;
     font-family: var(--font-primary);
@@ -74,7 +76,7 @@ nav {
     font-size: 1.6rem;
     font-weight: lighter;
 }
-main{
+.main-index{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +85,7 @@ main{
 
 }
 
-main .cont-funko{
+.main-index .cont-funko{
     display: flex;
     gap:40px;
     white-space: nowrap;
@@ -220,4 +222,29 @@ footer h5>a{
     font-size: 2.3em;
     align-self: center;
     justify-self: center;
+}
+.main-shop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "area1 area2 area3 area4"
+    "area5 area6 area7 area8"
+    "area9 area10 area11 area12";
+}
+.filtro-funko{
+    margin: 120px 40px 0px;
+}
+.filtro-funko fieldset{
+    border: none;
+}
+.cont-lanza-img-shop img{
+    width: 200px;
+}
+.cont-card-funko-shop{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    grid-area: area2/ area3;
+    font-family: var(--font-primary);
 }
