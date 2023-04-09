@@ -26,9 +26,12 @@ html {
     height: 45vh;
     display: inline-block;
     width: 100%;
-    margin: 70px 0px;
-    padding: 120px 60px 0px;
+    margin: 70px 0px 0px;
+    padding: 80px 80px 0px;
     background-position:13% 90%;
+}
+.nav-bar{
+    display: inline-block;
 }
 nav {
     background-color:#30343F;
@@ -41,16 +44,207 @@ nav {
 }
 
 .nav-link{
-    display: inline-block;
     font-size: 1.6em;
     margin:0px 20px;
     font-family: var(--font-primary);
-    font-weight:bold;
     text-transform:uppercase;
+    color: white;
 }
 .banner-funko h1,.banner-funko h4{
     font-family: var(--font-primary);
+    color: white;
 }
 .banner-funko button{
     font-family: var(--font-secondary);
+    display: inline-block;
+    margin: 30px 0px 0px;
+    color:rgb(0,0,0);
+    font-size: 1.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:white;
+    padding: 5px 60px;
+    border-radius: 24px;
+    cursor: pointer;
+    
+}
+.banner-funko h1{
+    font-size: 3.8em;
+    padding: 10px 0px;
+}
+.banner-funko h4{
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+.main-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 0px;
+
+}
+
+.main-index .cont-funko{
+    display: flex;
+    gap:40px;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+.cont-funko h2, .funko-body h4{
+    font-family: var(--font-primary);
+}
+
+.img-card-funko img{
+    width:350px;
+
+}
+.funko-body{
+    padding: 125px 0px;   
+}
+.cont-funko h2{
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.cont-funko h4{
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 10px 0px 15px;
+    border-bottom: 1px solid #FF3333;
+}
+.cont-funko button{
+    margin:20px 0px 0px;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.ult-lanzamientos h2{
+    font-size: 4.2em;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #111111;
+    padding:0px 300px 0px 0px;
+}
+.cont-lanza-img img{
+    width: 270px;
+    display: block;
+}
+.cont-card-funko{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    justify-content: center;
+    gap: 80px;
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+}
+.cont-label{
+    display: inline;    
+    float: right;
+}
+.label{
+    margin:50px 10px 0px;
+    background-color:#FF3333;
+    padding: 5px 15px;
+    color: white;
+    font-size: 1.1em;
+}
+.cont-card-funko h6{
+    font-size: 1.4em;   
+    color: #333333;
+    font-weight: 500;
+}
+.cont-card-funko h5{
+    font-size: 1.8em;
+    padding:6px 0px;
+   
+  
+}
+.precio-card-lanza{
+    font-size: 1.6em;
+    font-weight: 400;
+}
+.cuota-lanza{
+    color: #1D84B5;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding:5px 0px;
+}
+footer{
+    margin: 60px 0px 0px;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 0.8fr 0.8fr 0.4fr ;
+    background-color:#30343F;
+    color: white;
+    grid-template-areas: 
+    "Area1 Area2 Area3"
+    "Area4 Area5 Area6"
+    "Area7 Area8 Area9";
+    font-family: var(--font-primary);
+}
+footer h5{
+    grid-area: Area8;
+    text-align: center;
+    align-self:flex-end;
+    font-size: 1.6em;
+    padding: 15px 0px;
+}
+footer h5>a{
+    color: rgb(195, 192, 192);
+}
+.cont-logo-footer{
+    grid-area: Area6;
+    display: flex;
+    justify-content: end;
+    padding: 0px 30px;
+}
+.logo-footer {
+    width: 80px;
+}
+.menu-footer{
+    grid-area: Area4;
+    padding: 0px 50px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.menu-footer li{
+    padding: 2px 0px;
+}
+.arrow-left,.arrow-right{
+    font-size: 2.3em;
+    align-self: center;
+    justify-self: center;
+}
+.main-shop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "area1 area2 area3 area4"
+    "area5 area6 area7 area8"
+    "area9 area10 area11 area12";
+}
+.filtro-funko{
+    margin: 120px 40px 0px;
+}
+.filtro-funko fieldset{
+    border: none;
+}
+.cont-lanza-img-shop img{
+    width: 200px;
+}
+.cont-card-funko-shop{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    grid-area: area2/ area3;
+    font-family: var(--font-primary);
 }

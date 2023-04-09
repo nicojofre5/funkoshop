@@ -4,10 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Funko Shop | Shop Section</title>
     <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/branding/isotype.svg" type="image/x-icon">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/branding/logo_light_horizontal.svg" alt=""></a>                
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="nav-bar"><a href="shop.html" class="nav-link">Shop <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li class="nav-bar"><a href="" class="nav-link">Contacto</a></li>
+                    <li class="nav-bar"><a href="" class="nav-link">Login</a></li>
+                    <li class="nav-bar"><a href="" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main-shop">
+        <div class="filtro-funko">
+            <fieldset>
+                <label for="searchCategory">Buscar</label>
+                <input type="text" placeholder="Item o categoría">
+            </fieldset>
+            <fieldset>
+                <label for="orderBy">Ordenar por</label>
+                <select name="" id="orderBy">
+                    <option value="Mayoramenor">Mayor a menor</option>
+                    <option value="Menoramayor">Menor a mayor</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="">Precio</label>
+                <label for="">Min</label><input type="number" placeholder="0">
+                <label for="">- Max</label><input type="number" placeholder="1000">
+            </fieldset>
+            <fieldset>
+                <input class="" type="checkbox" value="" id="">
+                <label class="" for="">Nuevos</label>
+                <input class="" type="checkbox" value="" id="">
+                <label class="" for="">ofertas</label>
+                <input class="" type="checkbox" value="" id="">
+                <label class="" for="">edición especial</label>
+                <input class="" type="checkbox" value="" id="">
+                <label class="" for="">favoritos</label>
+            </fieldset>  
+        </div>  
+        <div class="cont-card-funko-shop">            
+            <div class="card-funko-shop">
+                <div class="cont-label">
+                    <p class="label">NUEVO</p>
+                </div>
+                
+                <picture class="cont-lanza-img-shop">
+                    <img src="assets/img/star-wars/trooper-1.webp" alt="">
+                </picture>
+                <h6>Star wars</h6>
+                <h5>Stormtrooper lightsaber</h5>
+                <p class="precio-card-lanza">$ 1799,99.-</p>
+                <p class="cuota-lanza">3 cuotas sin interés</p>
+            </div>
+            <div class="card-funko-shop">
+                <div class="cont-label">  
+                    <p class="label">NUEVO</p>
+                </div>
+              
+                <picture class="cont-lanza-img-shop">
+                    <img src="assets/img/pokemon/pidgeotto-1.webp" alt="">
+                </picture>
+                <h6>Pokemon</h6>
+                <h5>Pidgeotto</h5>
+                <p class="precio-card-lanza">$ 1799,99.-</p>
+                <p class="cuota-lanza">3 cuotas sin interés</p>
+            </div>
+
+            <div class="card-funko-shop">
+                <div class="cont-label">  
+                    <p class="label">NUEVO</p>
+                </div>
+                <picture class="cont-lanza-img-shop">
+                    <img src="assets/img/harry-potter/luna-1.webp" alt="">
+                </picture>
+                <h6>Harry potter</h6>
+                <h5>Luna lovegood lion mask</h5>
+                <p class="precio-card-lanza">$ 1799,99.-</p>
+                <p class="cuota-lanza">3 cuotas sin interés</p>      
+            </div>
+            
+            
+        </div>
+        
+        
+     
+    </main>
+    
+    <footer>
+        <ul class="menu-footer">
+                <li>Shop</li>
+                <li>Registrarse</li>
+                <li>Ingresar</li>
+                <li>Contacto</li>
+        </ul> 
+        <picture class="cont-logo-footer">
+            <img src="assets/img/branding/isotype.svg" class="logo-footer" alt="">
+        </picture>
+        <h5>All rights reserved 2023 - Funkoshop &copy;<a href="https://github.com/nicojofre5" target="_blank"> Nicolas Jofre</a></h5>       
+    </footer>
+    <script src="https://kit.fontawesome.com/63586a8960.js" crossorigin="anonymous"></script>
     
 </body>
 </html>

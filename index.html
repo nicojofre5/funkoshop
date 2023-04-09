@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/branding/isotype.svg" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="assets/img/branding/logo_light_horizontal.svg" alt="">
+                <a href="index.html"><img src="assets/img/branding/logo_light_horizontal.svg" alt=""></a>                
             </div>
             <div class="menu">
                 <ul>
-                    <li class="nav-link">Shop <i class="fa-solid fa-caret-down"></i></li>
-                    <li class="nav-link">Contacto</li>
-                    <li class="nav-link">Login</li>
-                    <li class="nav-link"><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li class="nav-bar"><a href="shop.html" class="nav-link">Shop <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li class="nav-bar"><a href="" class="nav-link">Contacto</a></li>
+                    <li class="nav-bar"><a href="" class="nav-link">Login</a></li>
+                    <li class="nav-bar"><a href="" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -32,87 +33,107 @@
         </div>
         
     </header>
-    <main>
-        <article>
-            <h2>Star wars & the mandalorian</h2>
-            <h4>Disfruta de una saga que sigue agregando personajes a su colección.</h4>
-            <button>Ver colección</button>
-            <picture>
-                <img src="" alt="">
+    <main class="main-index">
+        <div class="cont-funko">
+            <div class="funko-body">
+                <h2>Star wars & <br>the mandalorian</h2>
+                <h4>Disfruta de una saga que sigue agregando personajes a su colección.</h4>
+                <button>Ver colección</button>
+            </div>
+            <picture class="img-card-funko">
+                <img src="assets/img/star-wars/baby-yoda-1.webp" class="img-yoda1" alt="">
             </picture>
-        </article>
-        <article>
-            <h2>Pokemon indigo</h2>
-            <h4>Atrapa todos los que puedas y disfruta de una colección llena de amigos </h4>
-            <button>Ver colección</button>
-            <picture>
-                <img src="" alt="">
+        </div>
+        <div class="cont-funko">
+            <picture class="img-card-funko">
+                <img src="assets/img/pokemon/vulpix-1.webp" alt="">
             </picture>
-        </article>
-        <article>
-            <h2>Harry potter</h2>
-            <h4>Revive los recuerdos de una saga llena de magia y encanto</h4>
-            <button>Ver colección</button>
-            <picture>
-                <img src="" alt="">
+            
+            <div class="funko-body">
+                <h2>Pokemon indigo</h2>
+                <h4>Atrapa todos los que puedas y disfruta de una colección llena de amigos.</h4>
+                <button>Ver colección</button>              
+            </div>
+          
+        </div>
+        <div class="cont-funko">
+            <div class="funko-body">
+                <h2>Harry potter</h2>
+                <h4>Revive los recuerdos de una saga llena de magia y encanto.</h4>
+                <button>Ver colección</button>
+            </div>            
+            <picture class="img-card-funko">
+                <img src="assets/img/harry-potter/snape-patronus-1.webp" alt="">
             </picture>
-        </article>
+        </div>
     </main>
     
     <section class="ult-lanzamientos">
         <h2>últimos lanzamientos</h2>
+   
+        
         <div class="cont-card-funko">
-            <i></i>
+            <div class="arrow-left">
+                <i class="fa-sharp fa-solid fa-circle-left"></i>
+            </div>
             <div class="card-funko">
-                <h6>NUEVO</h6>
-                <picture>
-                    <img src="" alt="">
+                <div class="cont-label">
+                    <p class="label">NUEVO</p>
+                </div>
+                
+                <picture class="cont-lanza-img">
+                    <img src="assets/img/star-wars/trooper-1.webp" alt="">
                 </picture>
                 <h6>Star wars</h6>
                 <h5>Stormtrooper lightsaber</h5>
-                <p>$ 1799,99.-</p>
-                <p>3 cuotas sin interés</p>
+                <p class="precio-card-lanza">$ 1799,99.-</p>
+                <p class="cuota-lanza">3 cuotas sin interés</p>
             </div>
             <div class="card-funko">
-                <h6>NUEVO</h6>
-                <picture>
-                    <img src="" alt="">
+                <div class="cont-label">  
+                    <p class="label">NUEVO</p>
+                </div>
+              
+                <picture class="cont-lanza-img">
+                    <img src="assets/img/pokemon/pidgeotto-1.webp" alt="">
                 </picture>
                 <h6>Pokemon</h6>
                 <h5>Pidgeotto</h5>
-                <p>$ 1799,99.-</p>
-                <p>3 cuotas sin interés</p>
+                <p class="precio-card-lanza">$ 1799,99.-</p>
+                <p class="cuota-lanza">3 cuotas sin interés</p>
             </div>
 
             <div class="card-funko">
-                <h6>NUEVO</h6>
-                <picture>
-                    <img src="" alt="">
+                <div class="cont-label">  
+                    <p class="label">NUEVO</p>
+                </div>
+                <picture class="cont-lanza-img">
+                    <img src="assets/img/harry-potter/luna-1.webp" alt="">
                 </picture>
                 <h6>Harry potter</h6>
                 <h5>Luna lovegood lion mask</h5>
-                <p>$ 1799,99.-</p>
-                <p>3 cuotas sin interés</p>      
+                <p class="precio-card-lanza">$ 1799,99.-</p>
+                <p class="cuota-lanza">3 cuotas sin interés</p>      
             </div>
-            <i></i>
+            <div class="arrow-right">
+                <i class="fa-solid fa-circle-right"></i>
+            </div>
+          
         </div>
+     
+        
     </section>
     <footer>
-        <div>
-            <ul>
+        <ul class="menu-footer">
                 <li>Shop</li>
                 <li>Registrarse</li>
                 <li>Ingresar</li>
                 <li>Contacto</li>
-            </ul>
-
-            <div class="logo-footer">
-                <picture>
-                    <img src="assets/img/branding/isotype.svg" alt="">
-                </picture>
-            </div>
-        </div>
-        <h5>All rights reserved 2023 - Funkoshop &copy;</h5>       
+        </ul> 
+        <picture class="cont-logo-footer">
+            <img src="assets/img/branding/isotype.svg" class="logo-footer" alt="">
+        </picture>
+        <h5>All rights reserved 2023 - Funkoshop &copy;<a href="https://github.com/nicojofre5" target="_blank"> Nicolas Jofre</a></h5>       
     </footer>
     <script src="https://kit.fontawesome.com/63586a8960.js" crossorigin="anonymous"></script>
 </body>
