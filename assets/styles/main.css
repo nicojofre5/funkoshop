@@ -226,14 +226,13 @@ footer h5>a{
 .main-shop{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "area1 area2 area3 area4"
-    "area5 area6 area7 area8"
-    "area9 area10 area11 area12";
+
 }
 .filtro-funko{
     margin: 120px 40px 0px;
+
 }
 .filtro-funko fieldset{
     border: none;
@@ -242,9 +241,12 @@ footer h5>a{
     width: 200px;
 }
 .cont-card-funko-shop{
-    margin: 20px 0px;
-    display: flex;
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
     justify-content: center;
-    grid-area: area2/ area3;
+    grid-area: area2/area3 ;
     font-family: var(--font-primary);
+    gap: 35px;
+   
 }
