@@ -139,7 +139,7 @@ nav {
 }
 .cont-card-funko{
     display:grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;;
     justify-content: center;
     gap: 80px;
     font-family: var(--font-secondary);
@@ -154,7 +154,7 @@ nav {
     background-color:#FF3333;
     padding: 5px 15px;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 .cont-card-funko h6{
     font-size: 1.4em;   
@@ -225,28 +225,93 @@ footer h5>a{
 }
 .main-shop{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "area1 area2 area3 area4"
+    grid-template-columns: 0.4fr 2fr;
+    text-transform: uppercase;
 
 }
 .filtro-funko{
-    margin: 120px 40px 0px;
-
+    margin: 140px 40px 0px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
 }
 .filtro-funko fieldset{
     border: none;
 }
 .cont-lanza-img-shop img{
-    width: 200px;
+    width: 304px;
 }
 .cont-card-funko-shop{
     margin: 80px 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 320px 320px 320px; 
     justify-content: center;
-    grid-area: area2/area3 ;
+    grid-column: 2;
     font-family: var(--font-primary);
-    gap: 35px;
+    gap:70px;
+
+}
+.card-funko-shop h6{
+    font-size: 1.4em;
+    font-weight: 200;
+}
+.card-funko-shop h5{
+    font-size: 1.8em;
+}
+.card-funko-shop .precio-card-lanza{
+    font-size:1.6em;
+}
+.card-funko-shop .cuota-lanza{
+    font-size: 1.2em;
+}
+
+.label-title{
+    padding: 10px 0px 20px;
+
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+input[type="number"]{
+    width:42px;
+    text-align: center;
+    padding:4px;
+    
+}
+.label-precio{
+    display: block;
+    padding: 5px 0px 10px 0px;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+.min-label,.max-label{
+    font-size:1.1em;
+    padding: 0px 8px 0px 0px;
+
+}
+.label-filtro {
+    padding: 20px 0px 0px;
+    display: inline-block;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.filtro-chkbox{
+    padding: 10px;
+    font-size: 1.2em;
    
+}
+.lbl-chkout{
+   padding: 1px 3px;
+   display: inline-block;
+   font-size: 1.2em;
+}
+.label-title input,#orderBy{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin-top:10px;
+    width:85%;
 }

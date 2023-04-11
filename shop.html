@@ -30,11 +30,11 @@
     
     <main class="main-shop">
         <div class="filtro-funko">
-            <fieldset>
+            <fieldset class="label-title">
                 <label for="searchCategory">Buscar</label>
                 <input type="text" placeholder="Item o categoría">
             </fieldset>
-            <fieldset>
+            <fieldset class="label-title">
                 <label for="orderBy">Ordenar por</label>
                 <select name="" id="orderBy">
                     <option value="Mayoramenor">Mayor a menor</option>
@@ -42,19 +42,25 @@
                 </select>
             </fieldset>
             <fieldset>
-                <label for="">Precio</label>
-                <label for="">Min</label><input type="number" placeholder="0">
-                <label for="">- Max</label><input type="number" placeholder="1000">
+                <label for="" class="label-precio">Precio</label>
+                <label for="" class="min-label">Min</label><input type="number" placeholder="0">
+                <label for="" class="max-label">- Max</label><input type="number" placeholder="1000">
             </fieldset>
             <fieldset>
-                <input class="" type="checkbox" value="" id="">
-                <label class="" for="">Nuevos</label>
-                <input class="" type="checkbox" value="" id="">
-                <label class="" for="">ofertas</label>
-                <input class="" type="checkbox" value="" id="">
-                <label class="" for="">edición especial</label>
-                <input class="" type="checkbox" value="" id="">
-                <label class="" for="">favoritos</label>
+                <label for="" class="label-title label-filtro">Filtrar</label>
+                <div class="filtro-chkbox">
+                    <div> <input class="" type="checkbox" value="" id="">
+                        <label class="lbl-chkout" for="">Nuevos</label></div>
+                    <div>                    <input class="" type="checkbox" value="" id="">
+                        <label class="lbl-chkout" for="">ofertas</label></div>
+                    <div><input class="" type="checkbox" value="" id="">
+                        <label class="lbl-chkout" for="">edición especial</label></div>
+                    <div>
+                        <input class="" type="checkbox" value="" id="">
+                        <label class="lbl-chkout" for="">favoritos</label>
+                    </div>                  
+                </div>
+                
             </fieldset>  
         </div>  
         <div class="cont-card-funko-shop">            
