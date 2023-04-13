@@ -2,8 +2,32 @@
     .menu{
         display: none;
         position:absolute;
+
     }
     .cont-navbar-icon{
         display: block;
+        cursor: pointer;
     }
+    .logo img{
+        width: 200px;
+    }
+   .show{
+    display:block;
+    position: absolute;
+    background-color:#30343F;
+    top: 65px;
+    left: 0;
+    padding: 20px;
+    height:15vh;
+    width: 100%;
+   }
+   nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;  
+    text-align: center;
+    align-items: center;
+   }
+
 }
