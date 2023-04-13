@@ -89,7 +89,7 @@ nav {
     display: flex;
     gap:40px;
     white-space: nowrap;
-    flex-wrap: wrap;
+   
 }
 .cont-funko h2, .funko-body h4{
     font-family: var(--font-primary);
@@ -248,7 +248,7 @@ footer h5>a{
     grid-template-columns: 320px 320px 320px; 
     justify-content: center;
     grid-column: 2;
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     gap:70px;
 
 }
@@ -382,3 +382,93 @@ input[type=number]::-webkit-outer-spin-button {
     display: block;
     transition: 2.4s;
   }
+  .prod-relacionados{
+    padding: 120px 0px 0px;
+  }
+  .prod-relacionados h2{
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    font-size: 3em;
+    padding: 15px 42px;
+    font-weight: bold;
+  }
+  .art-principal{
+    padding: 150px 0px 0px 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-secondary);
+    
+  }
+  .img-art-principal{
+    width: 582px;
+  }
+  .body-art-principal h4,.body-art-principal h3{
+    text-transform: uppercase;
+
+  }
+  .body-art-principal h4{
+    font-size: 1.6em;
+    font-weight: 200;
+  }
+  .body-art-principal h3{
+    font-size: 3.8em;
+    font-weight: bold;
+
+  }
+  .descrip-art-principal{
+    font-size: 1.5rem;
+    padding: 0px 22px 4px 0px;
+    width: 400px;
+    font-weight: 300;
+    color: #333333;
+  }
+  .body-art-principal h5{
+    font-size: 3.4em;
+    padding: 14px 2px;
+    font-weight: 200;
+  }
+  .carrito-art-principal div,.carrito-art-principal div>p,.blk-pago p{
+    display: inline;
+
+  }
+.menos,.mas{
+    background-color: #4f4f4f;
+    color: #ffffff;
+    padding: 8px 14px;
+    margin: 0px 18px 0px;
+    font-size: 1.6em;
+}
+.carrito-art-principal{
+    margin: 14px 0px 25px;
+}
+.blk-pago
+{
+    font-weight: bold;
+    color: #1D84B5;
+}
+.omenosmas{
+    text-align: center;
+}
+.addCarrito{
+    background-color: #FF3333;
+    color: white;
+    padding: 8px 12px;
+    font-size: 1.4em;
+}
+.methodPaid{
+
+    font-size: 1.3em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cuota{
+    text-transform: uppercase;
+}
+.navbar-icon{
+    color: white;
+    font-size: 3.2em;
+}
+.cont-navbar-icon{
+    display: none;
+}
