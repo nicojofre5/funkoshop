@@ -73,9 +73,15 @@
         padding-top: 80px;
 
     }
+    .arrow-left,.arrow-right{
+        font-size: 1.6em;
+    }
+    .cont-card-funko{
+        gap: 20px;
+    }
 }
 
-@media only screen and (min-width:250px) and (max-width:550px){
+@media only screen and (min-width:250px) and (max-width:570px){
     .funko-body h4{
         font-size: 1.3em;        
     }
@@ -92,7 +98,7 @@
         width: 120px;
     }
     .cont-card-funko{
-        gap: 0px;
+        gap: 5px;
     
     }
     .cont-label .label{
@@ -117,8 +123,7 @@
     }
     .arrow-left,.arrow-right{
         font-size: 1.4rem;
-        position: relative; 
-        
+        position: relative;
         
     }
     .arrow-right{
@@ -126,5 +131,8 @@
     }
     .arrow-left{
         left: 15px;
+    }
+    footer h5{
+        font-size: 1.2rem;
     }
 }
