@@ -26,7 +26,7 @@ html {
     background-size: cover;
     min-height: 40vh;
     display:block;
-    padding: 200px 80px 0px;
+    padding: 120px 80px 50px;
     background-position:13% 90%;
 }
 .nav-bar{
@@ -39,7 +39,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:16px 70px;
+    padding:16px 35px;
 }
 
 .nav-link{
@@ -69,7 +69,7 @@ nav {
     
 }
 .banner-funko h1{
-    font-size: 3.8em;
+    font-size: 3.5em;
     padding: 10px 0px;
 }
 .banner-funko h4{
@@ -81,21 +81,20 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 10px 0px;
-    flex-wrap: wrap;
+    padding: 30px 10px 3px;
 
 
 }
 
 .main-index .cont-funko{
     display: flex;
-    gap:40px;
-    white-space: nowrap;
+    justify-content: center;
    
 }
 .cont-funko h2, .funko-body h4{
     font-family: var(--font-primary);
 }
+
 
 .img-card-funko img{
     width:350px;
@@ -137,13 +136,13 @@ nav {
 }
 .cont-lanza-img img{
     width: 270px;
-    display: block;
+    display:inline;
 }
 .cont-card-funko{
     display:grid;
     grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;;
     justify-content: center;
-    gap: 80px;
+    gap: 50px;
     font-family: var(--font-secondary);
     text-transform: uppercase;
 }
@@ -181,7 +180,6 @@ nav {
 }
 footer{
     margin: 60px 0px 0px;
-    display: grid;
     grid-template-columns: 0.8fr 0.8fr 0.8fr;
     grid-template-rows: 0.8fr 0.8fr 0.4fr ;
     background-color:#30343F;
