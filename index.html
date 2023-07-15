@@ -20,9 +20,17 @@
             </div>
             <div class="menu" id="menu">
                 <ul>
-                    <li class="nav-bar dropdown"><a href="shop.html" class="nav-link">Shop <i class="fa-solid fa-caret-down"></i></a><div class="dropdown-content"><a href="item.html">Productos</a></div></li>                    <li class="nav-bar"><a href="" class="nav-link">Contacto</a></li>
+                    <li class="nav-bar with-submenu">
+                        <a href="shop.html" class="nav-link with-icon">Shop<iconify-icon icon="ion:chevron-down"></iconify-icon></a>
+                        <ul class="submenu">
+                            <li><a href="" class="submenu-link">Funkos</a></li>
+                            <li><a href="" class="submenu-link">Remeras</a></li>
+                            <li><a href="" class="submenu-link">Llaveros</a></li>                         
+                        </ul>
+                    </li>
+                    <li class="nav-bar"><a href="" class="nav-link">Contacto</a></li>
                     <li class="nav-bar"><a href="" class="nav-link">Login</a></li>
-                    <li class="nav-bar"><a href="" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="nav-bar"><a href="" class="link-shop"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 </ul>
             </div>
             <span class="cont-navbar-icon" id="btn"><i class="fa-solid fa-bars navbar-icon"></i></span>
@@ -128,10 +136,10 @@
     <footer>
         <div class="cont-link-logo">
             <ul class="menu-footer">
-                <li>Shop</li>
-                <li>Registrarse</li>
-                <li>Ingresar</li>
-                <li>Contacto</li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Registrarse</a></li>
+                <li><a href="">Ingresar</a></li>
+                <li><a href="">Contacto</a></li>
             </ul> 
             <picture class="cont-logo-footer">
                 <img src="assets/img/branding/isotype.svg" class="logo-footer" style="display:inline" alt="">
@@ -141,5 +149,6 @@
     </footer>
     <script src="https://kit.fontawesome.com/63586a8960.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 </html>
